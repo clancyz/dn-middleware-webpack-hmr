@@ -7,7 +7,7 @@
     "test": "dn test"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "eslint": "^5.9.0",
