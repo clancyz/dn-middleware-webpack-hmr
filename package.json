@@ -1,7 +1,7 @@
 {
   "name": "dn-middleware-webpack-hmr",
   "version": "0.0.1",
-  "description": "HMR server for dawn template",
+  "description": "webpack HMR middleware for dawn template",
   "main": "./lib/index.js",
   "scripts": {
     "test": "dn test"

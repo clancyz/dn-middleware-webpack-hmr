@@ -1,9 +1,10 @@
 ---
 group: template
-name: hmr-server
+name: webpack-hmr
 title: 中间件工程
 ---
 
-## dn-middleware-hmr-server
+## dn-middleware-webpack-hmr
 
-WIP
+`WIP` webpack HMR middleware for dawn template.
+
