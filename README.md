@@ -6,12 +6,13 @@ title: 中间件工程
 
 ## dn-middleware-webpack-hmr
 
-`WIP` webpack HMR middleware for [dawn](https://alibaba.github.io/dawn/) template. (Compatible with wepback 3.x)
+Webpack HMR middleware for [dawn](https://alibaba.github.io/dawn/) template. (Compatible with wepback 3.x)
 
 ### Features
 
 - Enable webpack hot module reload (HMR)
 - Eslint real-time check in development
+- Dev server inside
 - Error reporting by `webpack-dev-middleware`
 
 ### Getting Started
@@ -23,6 +24,7 @@ dev:
   - name: webpack-hmr
 
 ```
+
 
 2. Mark your root component as hot-exported: (detail see [react-hot-loader](https://github.com/gaearon/react-hot-loader))
 
