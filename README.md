@@ -3,12 +3,13 @@
 
 Webpack HMR middleware for [dawn](https://alibaba.github.io/dawn/) template. (Compatible with wepback 3.x)
 
+> Warning: support React only.
+
 ### Features
 
-- Enable webpack hot module reload (HMR)
-- Eslint real-time check in development
-- Dev server inside
-- Error reporting by `webpack-dev-middleware`
+- Enable hot module reload (HMR)
+- `Create-react-app` development experience (use `react-dev-utils`)
+
 
 ### Getting Started
 
