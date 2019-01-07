@@ -417,6 +417,13 @@ aws4@^1.8.0:
   version "1.8.0"
   resolved "http://registry.npm.alibaba-inc.com/aws4/download/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
 
+axios@^0.17.1:
+  version "0.17.1"
+  resolved "http://registry.npm.alibaba-inc.com/axios/download/axios-0.17.1.tgz#2d8e3e5d0bdbd7327f91bc814f5c57660f81824d"
+  dependencies:
+    follow-redirects "^1.2.5"
+    is-buffer "^1.1.5"
+
 babel-code-frame@^6.11.0, babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "http://registry.npm.alibaba-inc.com/babel-code-frame/download/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -3219,6 +3226,12 @@ flatten@^1.0.2:
 follow-redirects@^1.0.0:
   version "1.5.9"
   resolved "http://registry.npm.alibaba-inc.com/follow-redirects/download/follow-redirects-1.5.9.tgz#c9ed9d748b814a39535716e531b9196a845d89c6"
+  dependencies:
+    debug "=3.1.0"
+
+follow-redirects@^1.2.5:
+  version "1.6.1"
+  resolved "http://registry.npm.alibaba-inc.com/follow-redirects/download/follow-redirects-1.6.1.tgz#514973c44b5757368bad8bddfe52f81f015c94cb"
   dependencies:
     debug "=3.1.0"
 
@@ -7661,6 +7674,13 @@ yallist@^2.1.2:
 yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.2"
   resolved "http://registry.npm.alibaba-inc.com/yallist/download/yallist-3.0.2.tgz#8452b4bb7e83c7c188d8041c1a837c773d6d8bb9"
+
+yamlql-loader@^0.3.3:
+  version "0.3.3"
+  resolved "http://registry.npm.alibaba-inc.com/yamlql-loader/download/yamlql-loader-0.3.3.tgz#5d50af88549b63d98f4d2688032824786cbc3b2b"
+  dependencies:
+    axios "^0.17.1"
+    js-yaml "^3.12.0"
 
 yargs-parser@^4.2.0:
   version "4.2.1"

@@ -76,7 +76,8 @@
     "webpack-dev-middleware": "^2.0.6",
     "webpack-dev-server": "^2.11.3",
     "webpack-hot-middleware": "^2.24.3",
-    "webpack-visualizer-plugin": "^0.1.11"
+    "webpack-visualizer-plugin": "^0.1.11",
+    "yamlql-loader": "^0.3.3"
   },
   "devDependencies": {
     "eslint": "^5.9.0",

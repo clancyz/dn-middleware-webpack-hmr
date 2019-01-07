@@ -257,7 +257,16 @@ brand-success: '#35b42b'
 
 - 自定义postcss plugin，格式为数组。**需要在用户目录下手动安装**。
 
+### yamlqlOptions
 
+- 自定义yamlql配置，请见[yamlql-loader](https://www.npmjs.com/package/yamlql-loader)
+
+举例：
+
+```yaml
+    yamlqlOptions: 
+      url: '/graphql'
+```
 
 
 
