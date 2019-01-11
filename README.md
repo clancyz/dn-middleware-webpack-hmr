@@ -131,6 +131,7 @@ template: ./src/assets/*.html   # 将 assest 下的所有 html 作为页面模�
 ### appSrc
 
 - 项目代码所在目录，默认为根目录`src`。
+- 传参需要`string`和`Array`格式。
 
 ### sourceMap
 
