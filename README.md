@@ -128,6 +128,10 @@ template: ./src/assets/*.html   # 将 assest 下的所有 html 作为页面模�
 - 开发端口号，仅当开发时可用。
 - 默认值为`8001`
 
+### appSrc
+
+- 项目代码所在目录，默认为根目录`src`。
+
 ### sourceMap
 
 - 是否开启sourceMap。 env为development时默认开启；为production时默认关闭。
