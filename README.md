@@ -66,7 +66,7 @@ $ dn dev -e maplocal
 
 默认情况下，中间件会尝试在根目录写入`tsconfig.json`文件，但如果根目录已存在`tsconfig.json`, 会以根目录的为准；
 
-如果有ts编译问题，且`tsconfig.json`是之前自定义的，可尝试先备份该文件，然后执行`dn d`或其他命令运行中间件，对比中间件写入的`tsconfig.json`文件看是否有差异。
+如果有ts编译问题，且`tsconfig.json`是之前自定义的，可尝试先备份该文件后删除该文件，然后执行`dn d`或其他命令运行中间件，对比中间件写入的`tsconfig.json`文件看是否有差异。
 
 
 ## 自定义配置
