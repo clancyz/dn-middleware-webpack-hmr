@@ -18,6 +18,7 @@
 - 支持`antd`和`antd-mobile`的按需加载及主题配置
 - 开发期间`eslint`实时报错支持
 - react语法错误提示
+- 默认支持`typescript`
 - 支持代理（使用server.yml）
 
 ## 开始使用
